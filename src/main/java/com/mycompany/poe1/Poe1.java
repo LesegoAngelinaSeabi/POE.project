@@ -26,6 +26,8 @@ public class Poe1 {
  firstname = scanner.next();
   System.out.print("lastname");
  lastname = scanner.next();
+        System.out.println("enter password");
+        password = scanner.next();
   
 
     }
