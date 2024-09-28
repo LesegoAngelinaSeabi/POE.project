@@ -19,15 +19,19 @@ public class Poe1 {
         String password;
         String firstname;
         String lastname;
+        
         //prompt the user to enter their details
          System.out.print("enter username");
  username = scanner.next();
+ 
  System.out.print("enter firstname");
  firstname = scanner.next();
+ 
   System.out.print("lastname");
  lastname = scanner.next();
-        System.out.println("enter password");
-        password = scanner.next();
+ 
+  System.out.println("enter password");
+  password = scanner.next();
   
 
     }
