@@ -15,11 +15,10 @@ public class Poe1 {
         
          Scanner  scanner = new Scanner(System.in);
         //declarations
-        String username;
-        String password;
-        String firstname;
-        String lastname;
+        String username, password, firstname, lastname;
+          
         
+       
         //prompt the user to enter their details
          System.out.print("enter username");
  username = scanner.next();

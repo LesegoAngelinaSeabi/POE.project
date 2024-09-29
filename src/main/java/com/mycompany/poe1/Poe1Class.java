@@ -25,7 +25,7 @@ public class Poe1Class {
         this.username = username;
            System.out.println("username successfully captured");
     }else{
-           System.out.println("username is not correctly formatted");
+           System.out.println("username is not correctly formatted,please ensure that your username contains an underscore and is no more than 5 characters in length");
        }
    }
 
@@ -38,7 +38,7 @@ public class Poe1Class {
         this.password = password;
             System.out.println("password successfully captured");
     }else{
-            System.out.println("password is not correctly formatted");
+            System.out.println("password is not correctly formatted,please ensure that the password contains atleast 8 characters,a letter,a number and a special character");
         }
     }
     
@@ -77,5 +77,12 @@ public class Poe1Class {
         }
         return lengthcheck && capitalCheck && numberCheck && specialCheck;
     }
+public void authenticate(String inputUsername,String inputPassword){
+    if(inputUsername.equals(this.username) && inputPassword.equals(this.password)){
+        System.out.println("welcome" + firstname + "" + lastname + "it is great to see you again");
+    }else{
+        System.out.println("usrname or password is incorrect,please try again.");
+    }
+}
 }
 
